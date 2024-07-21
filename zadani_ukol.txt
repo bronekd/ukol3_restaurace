@@ -90,3 +90,5 @@ Přidejte do webové aplikace Restaurants of the City možnost upravovat informa
 
 Přidejte do webové aplikace Restaurace města možnost vyhledávat restauraci podle její specializace. Uživatel například zadá „italsky“. Aplikace zobrazuje všechny restaurace ve městě, které se specializují na italskou kuchyni.
 
+
+Úkol je dostupný: https://github.com/bronekd/ukol3_restaurace

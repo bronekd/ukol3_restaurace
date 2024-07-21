@@ -1,6 +1,6 @@
-from django.views.generic import ListView
+
+from django.views.generic import TemplateView
 
 
-
-class Home(ListView):
+class Home(TemplateView):
     template_name = 'home.html'
