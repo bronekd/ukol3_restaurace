@@ -1,0 +1,92 @@
+zadání úkolu:
+https://materials.itstep.org/content/0db2bdc0-3c94-4da5-8e8a-fa42530d57a6/en/?cache=0
+
+v úkolu z minula predelajte tasky 4,5,6,7 pomoci class views a
+pridajte možnosť prihlasenia, odhlasenia a registracie uživatela do aplikácie
+stačí keď bude mať prihlaseny uzivatel možnosť vidieť profil a ostatny nie
+
+EN:
+Module Frameworks
+Part 7
+
+
+In this Homework, you should create a web app Restaurants of the City. The app should store and display information about restaurants.
+
+Task 1
+
+Create a model. The model must contain information about a restaurant. The following data should be stored:
+
+Name;
+Restaurant specialization (e.g., Italian, French, family, etc.);
+Address;
+Website;
+Phone number.
+Task 2
+
+Create a migration class for the model from Task 1.
+
+Task 3
+
+Perform migration from Task 2 to create a database.
+
+Task 4
+
+Create a form for adding restaurants. After adding a restaurant, it is written to the database.
+
+Task 5
+
+Add an ability to the Restaurants of the City web app to display all restaurants.
+
+Task 6
+
+Add an ability to the Restaurants of the City web app to delete a specific restaurant.
+
+Task 7
+
+Add an ability to the Restaurants of the City web app to edit information about a specific restaurant.
+
+Task 8
+
+Add an ability to the Restaurants of the City web app to search for a restaurant by its specialization. For instance, the user enters "Italian." The app displays all restaurants of the city that specialize in Italian cuisine.
+
+
+CZ:
+V tomto domácím úkolu byste měli vytvořit webovou aplikaci Restaurace města. Aplikace by měla ukládat a zobrazovat informace o restauracích.
+
+Úkol 1
+
+Vytvořte model. Model musí obsahovat informace o restauraci. Měly by být uloženy následující údaje:
+
+Název;
+Specializace na restaurace (např. italská, francouzská, rodinná atd.);
+Adresa;
+Webová stránka;
+Telefonní číslo.
+Úkol 2
+
+Vytvořte migrační třídu pro model z úlohy 1.
+
+Úkol 3
+
+Proveďte migraci z Úkolu 2 a vytvořte databázi.
+
+Úkol 4
+
+Vytvořte formulář pro přidání restaurací. Po přidání restaurace se zapíše do databáze.
+
+Úkol 5
+
+Přidejte do webové aplikace Restaurants of the City možnost pro zobrazení všech restaurací.
+
+Úkol 6
+
+Přidejte do webové aplikace Restaurants of the City možnost smazat konkrétní restauraci.
+
+Úkol 7
+
+Přidejte do webové aplikace Restaurants of the City možnost upravovat informace o konkrétní restauraci.
+
+Úkol 8
+
+Přidejte do webové aplikace Restaurace města možnost vyhledávat restauraci podle její specializace. Uživatel například zadá „italsky“. Aplikace zobrazuje všechny restaurace ve městě, které se specializují na italskou kuchyni.
+
