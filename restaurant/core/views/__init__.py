@@ -1,1 +1,2 @@
-from .home import *
+from .home import Home
+from .views import SignUpView, ProfileView
