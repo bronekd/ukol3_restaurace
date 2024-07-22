@@ -8,7 +8,7 @@
     <h1>Restaurants</h1>
     <ul>
         {% for restaurant in restaurants %}
-            <li>{{ restaurant.name }} - {{ restaurant.location }}</li>
+            <li>{{ restaurant.name }}</li>
         {% empty %}
             <li>No restaurants found.</li>
         {% endfor %}
