@@ -1,18 +1,21 @@
-<!-- restaurant/templates/restaurant_list.html -->
 <!DOCTYPE html>
 <html>
 <head>
     <title>Restaurant List</title>
 </head>
 <body>
-    <h1>Restaurants</h1>
+    <h1>Restaurant List</h1>
     <ul>
-        {% for restaurant in restaurants %}
-            <li>{{ restaurant.name }}</li>
-        {% empty %}
-            <li>No restaurants found.</li>
+        {% for restaurant in object_list %}
+            <li>
+                {{ restaurant.name }} -
+                <a href="{% url 'restaurant_update' restaurant.pk %}">Edit</a>
+                <!-- a další odkazy na detail, smazání atd. -->
+            </li>
         {% endfor %}
     </ul>
 </body>
 </html>
+
+
 

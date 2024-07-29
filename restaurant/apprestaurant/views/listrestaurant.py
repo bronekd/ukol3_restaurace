@@ -4,3 +4,6 @@ from ..models import Restaurant
 class RestaurantListView(ListView):
     model = Restaurant
     template_name = 'restaurant_list.html'
+    context_object_name = 'restaurants'
+
+
