@@ -6,16 +6,17 @@
 <body>
     <h1>Restaurant List</h1>
     <ul>
-        {% for restaurant in object_list %}
+        {% for restaurant in restaurants %}
             <li>
                 {{ restaurant.name }} -
                 <a href="{% url 'restaurant_update' restaurant.pk %}">Edit</a>
-                <!-- a další odkazy na detail, smazání atd. -->
+                <!-- další odkazy na detail, smazání atd. -->
             </li>
         {% endfor %}
     </ul>
 </body>
 </html>
+
 
 
 

@@ -1,4 +1,4 @@
-from django.urls import reverse_lazy
+from django.urls import reverse_lazy, reverse
 from django.views.generic import UpdateView
 from ..models import Restaurant
 from ..forms import RestaurantForm
