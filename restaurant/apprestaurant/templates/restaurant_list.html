@@ -1,22 +1,22 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Restaurant List</title>
-</head>
-<body>
+{% extends "master.html" %}
+
+{% block title %}
+  Home
+{% endblock %}
+
+
+{% block content %}
     <h1>Restaurant List</h1>
     <ul>
         {% for restaurant in restaurants %}
             <li>
                 {{ restaurant.name }} -
                 <a href="{% url 'restaurant_update' restaurant.pk %}">Edit</a>
+                <a href="{% url 'restaurant_delete' restaurant.pk %}">Delete</a>
                 <!-- další odkazy na detail, smazání atd. -->
             </li>
         {% endfor %}
     </ul>
-</body>
-</html>
 
-
-
+{% endblock %}
 

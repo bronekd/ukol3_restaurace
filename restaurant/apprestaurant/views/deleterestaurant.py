@@ -4,5 +4,6 @@ from ..models import Restaurant
 
 class RestaurantDeleteView(DeleteView):
     model = Restaurant
-    template_name = 'delete_restaurant.html'
+    template_name = 'confirm_delete.html'
     success_url = reverse_lazy('restaurant_list')
+

@@ -1,14 +1,12 @@
-
 <!DOCTYPE html>
 <html>
 <head>
     <title>Delete Restaurant</title>
 </head>
 <body>
-    <h1>Are you sure you want to delete {{ restaurant.name }}?</h1>
-    <form method="post">
-        {% csrf_token %}
-        <button type="submit">Yes, delete</button>
+    <h1>Are you sure you want to delete {{ object.name }}?</h1>
+    <form method="post">{% csrf_token %}
+        <button type="submit">Confirm</button>
     </form>
     <a href="{% url 'restaurant_list' %}">Cancel</a>
 </body>
